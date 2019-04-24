@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.about-bill {
+  font-size: 20px;
+  letter-spacing: 1.1px;
+  line-height: 1.3;
+}
+
+.main-header {
+  background-image: url("https://dealerimages.dealereprocess.com/image/upload/862784.jpg");
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+}
+
+.main-header h1 {
+  font-size: 72px;
+  margin-top: 0;
+  padding-top: 10%;
+}
+
+.car-grid {
+  display: inline-grid;
+  grid-template: 400px / 550px 550px 550px;
+  grid-gap: 10px
+}
+
+.car-grid div {
+  background-image: url("https://www.vancouvertoyota.com/assets/shared/CustomHTMLFiles/Responsive/MRP/Toyota/2018/Highlander/images/2018-Toyota-Highlander-02.jpg");
+}
+
+h2 {
+  padding: 40px 0;
+  font-size: 41px;
+}
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.grid-container div {
+  text-align: center;
+}
+
+.main-button {
+  background: red;
+  padding: 1% 1.8%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+}
+.main-button:hover {
+  color: rgb(99, 0, 0);
+}
+
+.info-grid {
+  display: inline-grid;
+  grid-template: 600px / 500px 500px;
+  padding-top: 30px;
+  grid-gap: 15px;
+}
+
+.bio-header {font-size: 32px;
+    color: darkred;
+    letter-spacing: 1.1px;
+}
+
+.info-grid div:nth-child(2) {
+  background-image: url("https://banner2.kisspng.com/20171218/15e/businessman-png-image-5a38580bbdd9b2.0659195215136419957776.jpg");
+  background-position: 50% 40%;
+  background-size: cover;
+}
+
+#navbar {
+  padding-left: 5%;
+  padding-bottom: 0%;
+  position:fixed;
+  background: white;
+  width: 100%;
+  border-bottom: 0.5px solid #333;
+}
+
+#navbar ul li {
+  display: inline;
+  padding: 0 30px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}
