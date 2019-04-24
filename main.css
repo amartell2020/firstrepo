@@ -7,6 +7,11 @@ body {
   padding: 75px;
 }
 
+.contact-section h1 {
+  text-align: left;
+  padding-left: 99px;
+}
+
 .contact-form {
   padding-left: 100px;
 }
@@ -28,12 +33,15 @@ body {
   border-radius: 5px;
   margin-top: 10px;
   font-family: sans-serif;
+  margin-bottom: 15px;
+  font-size: 20px;
 }
 
 .contact-form input[type="text"] {
 /* top, right, bottom, left */
   padding: 5px 10px 5px 2px;
   border-radius: 3px;
+  width: 350px;
 }
 
 .about-bill {
